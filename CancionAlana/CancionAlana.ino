@@ -1,10 +1,10 @@
 /*
  Name:		CancionAlana.ino
  Created:	25/01/2017 21:26:59
- Author:	jcala
+ Author:	Calata
 */
 #include "Pitches.h" 
-// the setup function runs once when you press reset or power the board
+// Esta son las notas
 int melody[] = {
 	NOTE_G4, NOTE_G4, NOTE_C5, NOTE_G4, NOTE_E4,
 	NOTE_E4, NOTE_G4, NOTE_A5, NOTE_AS5, NOTE_C5, NOTE_E5,
@@ -13,8 +13,8 @@ int melody[] = {
 	NOTE_G5, NOTE_D5, NOTE_B5,NOTE_D5,NOTE_F5,
 	NOTE_E5, NOTE_C5, NOTE_G4, NOTE_C5, NOTE_D5, NOTE_E5,
 	NOTE_F5, NOTE_CS5, NOTE_GS5, NOTE_CS5, NOTE_F5,
-	NOTE_FS5, NOTE_C5, NOTE_A5, NOTE_D5, NOTE_FS5,
-	NOTE_GS5,NOTE_E5,NOTE_CS5,NOTE_GS5,
+	NOTE_FS5, NOTE_D5, NOTE_A5, NOTE_D5, NOTE_FS5,
+	NOTE_GS5,NOTE_E5,NOTE_CS5,NOTE_E5,NOTE_GS5,
 	NOTE_A6,NOTE_G5,NOTE_F5,NOTE_E5,NOTE_D5,NOTE_C5,
 	NOTE_B5, NOTE_A5, NOTE_B5, NOTE_D5,
 	NOTE_E5,NOTE_D5,NOTE_C5,NOTE_B5,NOTE_A5,NOTE_B5,
@@ -25,7 +25,7 @@ int melody[] = {
 	
 };
 
-// note durations: 4 = quarter note, 8 = eighth note, etc.:
+// 4 negra, 8 corchea, 3 negra con punto
 int noteDurations[] = {
 	4, 8, 8, 8, 8,
 	8, 8, 8, 8, 8, 8,
